@@ -1,0 +1,16 @@
+.ref-container {
+    width: 60px;
+    display: grid;
+    justify-content: center;
+  }
+  
+.ref-container input {
+    width: 90%;
+    margin-left: 3px;
+}
+
+.ref-container img {
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-top: 2px
+}

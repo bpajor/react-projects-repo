@@ -1,0 +1,63 @@
+.left-sidebar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid red;
+    height: 100%;
+    width: 20%;
+    background-color: whitesmoke;
+    /* opacity: 0.7; */
+    color: black;
+
+    /* inne style */
+  }
+
+  .title-container {
+    border: 2px solid red;
+    text-align: center;
+    color: white;
+  }
+
+  ol {
+    display: flex; /* zmiana sposobu wyświetlania listy na flexbox */
+    flex-wrap: wrap; /* zawijanie punktów w poziomie */
+    justify-content: space-between; /* równomierne rozłożenie punktów */
+    flex-direction: column;
+  }
+
+  ol li {
+    width: 100%; /* ustawienie szerokości każdego punktu */
+    margin-bottom: 1em; /* dodanie odstępu między punktami */
+  }
+
+  .intro {
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: 400; 
+  }
+
+  .rules {
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: 400; 
+  }
+
+  a {
+    color: rgb(46, 36, 141);
+  }
+
+  a:visited {
+    color: rgb(49, 35, 172);
+  }
+
+  a:hover {
+    color: red;
+  }
+
+ h1 {
+    text-align: center;
+    font-size: 2.5rem;
+ }
+
+  

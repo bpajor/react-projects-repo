@@ -1,0 +1,14 @@
+.gowno {
+    display: grid;
+    height: 70px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: rgb(19, 26, 26);
+    font-weight: 600;
+    border: 2px solid blue;
+    /* background: linear-gradient(to bottom right, white, blue); */
+    background-color: rgb(117, 201, 201);
+    border-radius: 10px;
+}
